@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 body {
     font-family: "Play", sans-serif;
     font-size: 14px;
@@ -23,7 +27,7 @@ body {
 .about-me {
     width: 100%;
     max-width: 430px;
-    min-width: 350px;
+    min-width: 320px;
     background: #C4C4C44D;
     border-radius: 10px;
     padding: 2rem;
@@ -68,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    padding: .5rem 2rem;
+    padding: 8px 16px;
     background: #C4C4C459;
 }
 .contact__item a {
@@ -149,6 +153,7 @@ ul.languages__list {
     background: #ffffff;
     border-radius: 10px;
     color: #000000CC;
+    max-width: 738px;
 }
 .main__item {
     display: flex;
@@ -211,10 +216,10 @@ ul.languages__list {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 56px;;
-    height: 56px;;
+    width: 56px;
+    height: 56px;
     border-radius:50%;
-    padding:5px;
+    padding:4px;
     background:
         linear-gradient(#E7E7E7,#E7E7E7) content-box, /*center*/
         linear-gradient(var(--v), #E7E7E7 50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
