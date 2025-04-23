@@ -139,7 +139,7 @@ ul.languages__list {
     position: relative;
     top: -2px;
     font-size: 18px;
-    content: '•••••';
+    content: '●●●●●';
     background: linear-gradient(to right, #54545460 var(--percent), #CECACA var(--percent));
     -webkit-background-clip: text;
     background-clip: text;
