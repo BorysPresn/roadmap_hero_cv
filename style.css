@@ -90,16 +90,16 @@ body {
     vertical-align: middle;
 }
 .contact__item--mail::before {
-    background-image:url('/assets/mdi_mail.svg');
+    background-image:url('./assets/mdi_mail.svg');
 }
 .contact__item--phone::before {
-    background-image: url('/assets/mdi_call.svg');
+    background-image: url('./assets/mdi_call.svg');
 }
 .contact__item--website::before {
-    background-image: url('/assets/website.svg'); 
+    background-image: url('./assets/website.svg'); 
 }
 .contact__item--location::before {
-    background-image: url('/assets/mdi_location_on.svg'); 
+    background-image: url('./assets/mdi_location_on.svg'); 
 }
 .content__item {
     display: flex;
